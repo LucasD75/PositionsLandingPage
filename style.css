@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+:root {
+  /* COLORS */
+  --colorLetras_1: rgb(124, 233, 124);
+  /* BORDERS */
+  --borderColor: rgb(124, 233, 124);
+  /* BACKGROUNDCOLOR */
+  --bg_color: black;
+  /* PADDING */
+  --padding_s: 20px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg_color);
+  color: var(--colorLetras_1);
+}
+
+header {
+  background-color: var(--bg_color);
+  border: dashed var(--borderColor) 1px;
+  position: fixed;
+  padding: var(--padding_s);
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+main {
+  position: relative;
+  padding: var(--padding_s);
+  margin-top: 80px;
+}
+.content {
+  border: dashed var(--borderColor) 1px;
+  position: absolute;
+  margin-top: 30vh;
+  padding: var(--padding_s);
+  width: 100%;
+  left: 0;
+  height: 15vh;
+  background-color: var(--primary_color);
+}
+.sidebar {
+  position: absolute;
+  border: dashed var(--borderColor) 1px;
+  margin-top: 1px;
+  right: 15px;
+  padding: 20px;
+}
+.features {
+  border: dashed var(--borderColor) 1px;
+  position: absolute;
+  margin-top: 50vh;
+  width: 100%;
+  text-align: center;
+}
+footer {
+  border: dashed var(--borderColor) 1px;
+  background-color: var(--bg_color);
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
