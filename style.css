@@ -43,7 +43,7 @@ main {
 .content {
   border: dashed var(--borderColor) 1px;
   position: absolute;
-  margin-top: 30vh;
+  margin-top: 1%;
   padding: var(--padding_s);
   width: 100%;
   left: 0;
@@ -53,7 +53,7 @@ main {
 .sidebar {
   position: absolute;
   border: dashed var(--borderColor) 1px;
-  margin-top: 1px;
+  margin-top: 12%;
   right: 15px;
   padding: 20px;
 }
